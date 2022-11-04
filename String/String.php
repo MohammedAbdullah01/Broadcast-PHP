@@ -5,16 +5,16 @@
 == String ==
 =============
 - Access Element
-    - String Is Array Of Characters
-    - Access Elements By Index "Zero Based Indexing"
-    - Nagative Index Are Allowed
+  - String Is Array Of Characters
+  - Access Elements By Index "Zero Based Indexing"
+  - Nagative Index Are Allowed
 
 - Update Elements
-    - Update Current Elements
-    - Add New Elements
+  - Update Current Elements
+  - Add New Elements
 
 Search
-    Single-Byte Multi-Byte
+  Single-Byte Multi-Byte
 */
 
 // Access Element
