@@ -1034,4 +1034,16 @@ echo "\\*==============================*\\<br>";
 */
 
 
-$nums2 = [10, 20, 50, 4, 9];
+$nums2 = [10, 20, 50, 30, 40];
+
+
+function sumNumber($carrry, $item)
+{
+    echo "{$carrry} <br>"; // Initial Value => 100 
+    echo "{$item} <br>"; // item => 10
+    echo ($carrry + $item) . "<br>"; // Iteration 100 + 10 etc....
+    echo "-----------------<br>";
+    return  $carrry + $item;
+}
+
+echo array_reduce($nums2, 'sumNumber', 100); // 250
