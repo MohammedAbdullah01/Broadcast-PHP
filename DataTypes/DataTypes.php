@@ -208,9 +208,9 @@ echo "-------<br>";
 		Print_r()
  */
 print_r([
-	'A' => 'Ahmed',
-	'M' => 'Mohame',
-	'Karma',
+    'A' => 'Ahmed',
+    'M' => 'Mohame',
+    'Karma',
 ]);
 echo "<br>";
 echo "-------<br>";
