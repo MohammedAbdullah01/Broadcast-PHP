@@ -1,7 +1,9 @@
 <?php
 
 /*
--
+- Write A PHP Program Which Iterates The Integers From 1 To 100 For Multiples Of 
+    Three Print "Three". Instead Of The Number And For The Multiples Of Five Print "Five".
+    For Numbers Which Are Multiples Of Both Three And Five Print "Three And Five".
  */
 
 for ($i = 1; $i <= 100; $i++):
