@@ -1,8 +1,7 @@
 <?php
 
 /*
-- Draw thead table from number 1 to 10, then tbody in each column 10 fields, 
-    so that the final table is 10 x 10.
+-
  */
 ?>
 
