@@ -18,7 +18,7 @@ function getMaxNumber(array $array): mixed
     if (empty($array)) {
 
         return "This Array Is Empty :(";
-    } else 
+    } else
         $maxNumber = $array[0];
 
     foreach ($array as $value) :
