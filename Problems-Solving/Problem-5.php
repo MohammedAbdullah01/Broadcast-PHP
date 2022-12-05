@@ -5,7 +5,7 @@
     - Write a PHP Function To get max Number In Array 
 */
 
-$arrayNum = [0, 6, 9, 8, 2, 5, 6, 3, 1, 4, 7, 8, 9, 8, -3, -2, 21, 3];
+$arrayNum = [0, 6, 9, 8, 2, 5, 6, 3, 1, 100, 4, 7, 8, 9, 8, -3, -2, 21, 3];
 $arr = [];
 
 /**
@@ -32,4 +32,4 @@ function getMaxNumber(array $array): mixed
     return $maxNumber;
 }
 
-echo getMinimunNumber($arrayNum);
+echo getMaxNumber($arrayNum);
