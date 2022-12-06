@@ -6,10 +6,10 @@
  */
 
 /**
- * @param string $number
- * @return string
+ * @param string $string
+ * @return bool
  */
-function getCheckLower(string $string)
+function getCheckLower(string $string): bool
 {
     for ($i = 0; $i < strlen($string); $i++):
 
@@ -18,12 +18,13 @@ function getCheckLower(string $string)
         }
 
     endfor;
+
     return true;
 }
 
 echo (getCheckLower(strlen("mohaMmed")));
 
-if (getCheckLower("mohammed")) {
+if (getCheckLower("mohAmmed")) {
     echo "This a Lowercase Characters";
 
 } else {
