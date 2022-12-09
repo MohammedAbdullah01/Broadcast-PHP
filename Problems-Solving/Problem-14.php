@@ -31,6 +31,3 @@ function getCountOfEachValueRepeated(array $array): array
 echo "<pre>";
 print_r(getCountOfEachValueRepeated($leatters));
 echo "</pre>";
-
-
-echo "Mohamed";
